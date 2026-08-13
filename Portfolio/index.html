@@ -3,9 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ayushi - Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+       * {
+            margin:0;
+            padding:0;
+       }
+      body{
+        background-color:rgb(12, 12, 59);
+        color:white;
+        font-family: "Playfair Display", serif;
+      }
+      
+      nav{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        height:80px;
+        background-color:rgb(15, 15, 167);
+      }
+
+      nav ul{
+        display:flex;
+        justify-content: center;
+      }
+
+      nav ul li{
+        list-style:none;
+        margin :0 23px;
+        
+      }
+
+      .right a{
+        text-decoration:none;
+        color:white;
+      }
+
+      .right a:hover{
+        color:rgb(1, 38, 39)
+      }
+
+      .left{
+        font-size: 1.5rem;
+      }
+
+      .firstSection{
+        display:flex;
+        justify-content:space-around;
+        margin:80px 0;
+        align-items:center;
+      }
+
+      .firstSection > div{
+        width:30%;
+        
+      }
+      
+      .leftSection{
+          color:white;
+          font-size:1.5rem;
+          width:50%;
+          align-items:center;
+          justify-content:center;
+          margin:0px;
+      }
+
+      .rightSection img{
+          width: 80%;
+          margin-top :3px; 
+          margin-left:3px;
+          margin-bottom: 3px;
+          margin-right: 3px;
+      }
+
+      .purple{
+        color:cornsilk;
+        font-size:4rem;
+        font-family: Italic, bold,sans-serif;
+      }
+
+    </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="left">Ayushi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hey, I’m  <span class="purple">Ayushi👋</span>
+                <div>A  curious mind, and a developer in the making.</div>
+                <div>Welcome to my portfolio</div>
+            </div>
+
+             <div class="rightSection">
+                <img src="img/Office outfit_.jpg" alt="Ayushi's image" width="100%">
+             </div>
+        </section>
+    </main>
     
 </body>
 </html>
