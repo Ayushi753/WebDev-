@@ -8,8 +8,6 @@ if (num % 2 === 0) {
  
 
 
-
-
 //WAP For identifying gender
 function identify(name, gender)
 {
